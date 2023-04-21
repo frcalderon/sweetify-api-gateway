@@ -46,4 +46,4 @@ jobs:
       with:
         context: .
         push: true
-        tags: frcalderon/sweetify-api-gateway:${{ steps.getVersion.outputs.version }}
+        tags: frcalderon/sweetify-api-gateway:${{ steps.getVersion.outputs.version }} , frcalderon/sweetify-api-gateway:latest
