@@ -46,4 +46,5 @@ jobs:
       with:
         context: .
         push: true
+        platforms: linux/amd64,linux/arm64/v8
         tags: frcalderon/sweetify-api-gateway:${{ steps.getVersion.outputs.version }} , frcalderon/sweetify-api-gateway:latest
